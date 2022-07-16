@@ -63,6 +63,7 @@ let myStr4 = `The product of ${a} and ${b} and ${c} is ${myProd3}.`
 
   return [mySum3, myProd3, myStr3, myStr4];
 }
+// This code was form the help of Dan Awesome
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
 testSumAndMultiply(4,7,5);
