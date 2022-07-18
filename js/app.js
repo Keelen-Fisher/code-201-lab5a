@@ -58,6 +58,9 @@ let mySum2 = sum(a, b)[0];
 let mySum3 = sum(mySum2, c)[0];
 let myProd2 = multiply(a, b)[0];
 let myProd3 = multiply(myProd2, c)[0];
+
+// You can also make it as a one liner: let totalProduct = multiply(multiply(a,b)[0], c)[0];
+
 let myStr3 = `${a} and ${b} and ${c} sum to ${mySum3}.`
 let myStr4 = `The product of ${a} and ${b} and ${c} is ${myProd3}.`
 
